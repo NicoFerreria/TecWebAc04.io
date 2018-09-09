@@ -1,0 +1,51 @@
+input[type="text"]{
+    background: lightblue;
+    width: 30%
+
+}
+input[type=text]:focus{
+    background: white;
+    width: 30%
+}
+input[type="email"]{
+    background: lightblue;
+    width: 30%
+    
+}
+input[type="email"]:focus{
+    background: white;
+    width: 30%
+}
+
+.Nome{
+    font-weight: bolder;
+    max-width: 20ch;
+}
+.Endereco{
+    max-width: 30ch;
+}
+label{
+    font-style: italic
+}
+
+#Rg_CPF{
+    max-width: 11ch;
+    width: 25%;
+    text-align: left;
+}
+select[type="Estado"]{
+    background: lightblue;    
+}
+select[type="Estado"]:focus{
+    background: white;    
+}
+textarea{
+    width: 50ch;
+    height: 5ch;
+}
+section{
+    text-align: center;
+}
+header{
+    text-align: center;
+}

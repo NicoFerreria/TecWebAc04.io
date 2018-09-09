@@ -1,0 +1,83 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+        <meta charset="UTF-8"/>
+        <link rel="stylesheet" href="estilo.css">
+    <title>
+        AC04
+    </title>
+</head>
+    <body>
+<header>
+        <h1>Tecnolgia Web AC04</h1>
+</header>
+<Section >
+        <form>
+            <label for=nomeCompleto>Nome Completo</label>:<br>
+            <input class="Nome" id="nomeCompleto" type="text" maxlength="20"><br>
+            <label for="endereco">Endereço</label>:<br>
+            <input class="Endereco" id="endereco" type="text" maxlength="30"><br>
+            <label id="cidade">Cidade</label>:<br>
+            <input id="cidade" type="text"><br>
+            <label for="estados">Estado</label>:<br>
+            <select type="Estado" id="estados">
+                    <option>AC</option>
+                    <option>AL</option>
+                    <option>AP</option>
+                    <option>AM</option>
+                    <option>BA</option>
+                    <option>CE</option>
+                    <option>DF</option>
+                    <option>ES</option>
+                    <option>GO</option>
+                    <option>MA</option>
+                    <option>MT</option>
+                    <option>MS</option>
+                    <option>MG</option>
+                    <option>PA</option>
+                    <option>PB</option>
+                    <option>PR</option>
+                    <option>PE</option>
+                    <option>PI</option>
+                    <option>RJ</option>
+                    <option>RN</option>
+                    <option>RS</option>
+                    <option>RO</option>
+                    <option>RR</option>
+                    <option>SC</option>
+                    <option>SP</option>
+                    <option>SE</option>
+                    <option>TO</option>               
+            </select><br>
+            <label for="rg">Rg</label>:<br>
+            <input name="rg" id="Rg_CPF" type="text" maxlength="10"><br>
+            <label for="cpf">CPF</label>:<br>
+            <input name="cpf" id="Rg_CPF" type="text" maxlength="11"><br>
+            <label for="email">Email</label>:<br>
+            <input id="email" type="email" maxlength="20" class="Nome"><br>
+
+            <label for="redeSocial">Redes Sociais</label>:<br>
+            <div id="redeSocial">
+            <label for="twitter">Twitter</label>:
+            <input type="radio" name="social" id="twitter" value="twitter">
+            <label for="facebook">Facebook</label>:
+            <input type="radio" name="social" id="facebook" value="facebook">
+            <label for="whatsapp">Whatsapp</label>:
+            <input type="radio" name="social" id="whatsapp" value="facebook">
+            <label for="outros">Outros</label>:
+            <input type="radio" name="social" id="outros" value="outros"><br>
+        </div>            
+            <input id="redeSocialCampo" type="text"><br>
+            <label for="cursos">Cursos</label>:<br>
+            <select id="cursos">
+                <option>Redes</option>
+                <option>S.I</option>
+                <option>A.D.S</option>
+            </select><br>
+            <label for="descricao">Breve descrição motivo da escolha do curso</label>:<br>
+            <textarea id="descricao" maxlength="100"></textarea><br>            
+            <input class="Botao" type="submit" value="Enviar">
+        </form>
+    </Section>
+    </body>
+</html>
